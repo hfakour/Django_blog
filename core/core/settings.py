@@ -154,3 +154,8 @@ LOGGING = {
         },
     },
 }
+
+# Use custom user model
+AUTH_USER_MODEL = 'accounts.CustomUser'
+# Email backend for development
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
