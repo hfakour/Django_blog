@@ -1,2 +1,2 @@
-# Django_blog
+# Sample_Django_Blog
  
