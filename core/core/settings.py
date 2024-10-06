@@ -43,9 +43,7 @@ INSTALLED_APPS = [
 
     # Your custom apps
     'accounts',
-    'blog',
-    'comments',
-    'notifications',
+    'post',
     'media',
     'search',
     'analytics',

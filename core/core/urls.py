@@ -24,9 +24,7 @@ urlpatterns = [
 
     # # Include app-specific URLs
     path('accounts/', include('accounts.urls')),
-    path('blog/', include('blog.urls')),
-    # path('comments/', include('comments.urls')),
-    # path('notifications/', include('notifications.urls')),
+    path('post/', include('post.urls')),
     # path('media/', include('media.urls')),
     # path('search/', include('search.urls')),
     # path('analytics/', include('analytics.urls')),

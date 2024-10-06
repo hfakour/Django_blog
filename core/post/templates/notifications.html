@@ -1,0 +1,10 @@
+<h2>Notifications</h2>
+<ul>
+    {% for notification in notifications %}
+        <li>
+            {{ notification.message }} - <a href="{% url 'post_detail' notification.post.id %}">View Post</a>
+        </li>
+    {% empty %}
+        <li>No new notifications</li>
+    {% endfor %}
+</ul>
